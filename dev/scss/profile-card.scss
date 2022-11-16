@@ -1,0 +1,152 @@
+.wrapper-profile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.profile {
+  width: 100%;
+  max-width: 55rem;
+  max-height: 40rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  &-card {
+    display: flex;
+    flex-direction: column;
+    font-family: $fontsFamily;
+    background-color: $whiteColor;
+    box-shadow: $boxShadow;
+    border-radius: 0.7rem;
+    padding: 2rem;
+    width: 100%;
+    &__photo {
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      &-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $bgTextColor;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        font-weight: 500;
+        font-size: 3.2rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: $textColor;
+        padding: 2.2rem;
+      }
+      &-button {
+        position: absolute;
+        border: none;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: $bgButtonGreen;
+        bottom: 0%;
+        left: 10%;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    &__form-inputs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 4.8rem;
+    }
+  }
+  .title {
+    color: $textColor;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    &__text {
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 2.4rem;
+      color: $inputColor;
+      position: relative;
+    }
+    &__input {
+      font-size: 0.9rem;
+      line-height: 0.4rem;
+      color: $inputColor;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0.6rem 0.6rem;
+      border-radius: 0.4rem;
+      border: 0.1rem solid $borderColor;
+      outline: none;
+    }
+    &__select {
+      font-size: 0.9rem;
+      color: $inputColor;
+      box-sizing: border-box;
+      padding: 0.6rem;
+      border-radius: 0.4rem;
+      border: 0.1rem solid $borderColor;
+    }
+  }
+  .profile-card__form-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  .form-button {
+    max-width: 12.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.5rem;
+    color: $whiteColor;
+    &--bg-green {
+      background-color: $bgButtonGreen;
+    }
+    &--bg-gray {
+      background-color: $bgButtonGray;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .profile {
+    max-width: 35rem;
+    width: 100%;
+    &-card {
+      &__photo {
+        &-button {
+          left: 18%;
+        }
+      }
+      &__form-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &__form-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .form-field {
+      width: 100%;
+    }
+    .form-button {
+      max-width: 100%;
+      margin: 0.5rem 0;
+    }
+  }
+}

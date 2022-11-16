@@ -1,0 +1,68 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 25rem;
+  background-color: $whiteColor;
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__nav-item {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    transition: 0.4s;
+    &:hover > .sidebar__nav-link {
+      background-color: $navItemBg;
+      border-radius: 16px;
+      .sidebar__nav-icon {
+        fill: $hoverColor;
+      }
+    }
+    ::after {
+      display: none;
+      content: url(../images/decoration-stick.svg);
+      padding-left: 3rem;
+    }
+  }
+  &__nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: $textColor;
+    &:active {
+      color: $textColor;
+    }
+  }
+  &__nav-icon {
+    fill: $iconColor;
+    padding: 0 1.7rem;
+  }
+}
+.dropdown {
+  &:hover .dropdown-nav {
+    display: block;
+    padding: 2rem 7.2rem;
+  }
+  &-nav {
+    display: none;
+  }
+  &-item {
+    padding: 2rem 0;
+    &:hover .dropdown-link {
+      color: $hoverColor;
+    }
+  }
+  &-link {
+    text-decoration: none;
+    color: $textColor;
+    &:active {
+      color: $textColor;
+    }
+  }
+}
