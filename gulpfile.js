@@ -47,7 +47,7 @@ gulp.task("webServer", function (done) {
   browserSync.init({
     server: "build/",
   });
-  gulp.watch("dev/scss/styles.scss", gulp.series("css_build"));
+  gulp.watch("dev/scss/**/*.scss", gulp.series("css_build"));
   gulp.watch("dev/index.html", gulp.series("html_build"));
   gulp.watch("dev/images/*", gulp.series("image_build"));
   gulp.watch("dev/scripts/*.js", gulp.series("js_build"));

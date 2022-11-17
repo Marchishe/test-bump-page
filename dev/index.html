@@ -1,147 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>test_bump_page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <aside class="sidebar">
-            <a href="index.html">
-                <img src="./images/logo side menu.png" alt="logo-image" class="logo-image">
-            </a>
-            <nav class="sidebar__nav">
-                <ul class="sidebar__nav-list">
-                    <li class="sidebar__nav-item"><a href="#" class="sidebar__nav-link"><svg width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="sidebar__nav-icon">
-                                <path
-                                    d="M3 13.0002H11V3.00024H3V13.0002ZM3 21.0002H11V15.0002H3V21.0002ZM13 21.0002H21V11.0002H13V21.0002ZM13 3.00024V9.00024H21V3.00024H13Z" />
-                            </svg>Overview</a></li>
-                    <li class="sidebar__nav-item"><a href="#" class="sidebar__nav-link"><svg width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="sidebar__nav-icon">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M23.1584 18.6017C23.1358 20.2391 21.8015 21.5595 20.1587 21.5595H3.83891C2.20768 21.5595 0.880538 20.2576 0.839868 18.6361C0.839852 18.6321 0.839844 18.628 0.839844 18.624V5.37684C0.839844 5.37154 0.839857 5.36624 0.839884 5.36094C0.879933 3.77804 2.14605 2.49982 3.72408 2.44043H20.2736C21.8632 2.50026 23.1363 3.79695 23.1584 5.396V18.6017ZM2.29696 5.37684C2.29696 4.52037 2.94314 3.89754 3.65455 3.89754H20.3437C21.0551 3.89754 21.7013 4.52037 21.7013 5.37684V18.624C21.7013 19.4805 21.0551 20.1033 20.3437 20.1033H3.65455C2.94314 20.1033 2.29696 19.4805 2.29696 18.624V5.37684ZM9.76428 7.96043C7.64672 7.96043 6.05566 9.84325 6.05566 12.0008C6.05566 14.1583 7.64672 16.0411 9.76428 16.0411C10.6122 16.0411 11.3838 15.7325 11.9982 15.2271C12.6112 15.7346 13.38 16.0411 14.2349 16.0411C16.3525 16.0411 17.9435 14.1583 17.9435 12.0008C17.9435 9.84325 16.3525 7.96043 14.2349 7.96043C13.3808 7.96043 12.6126 8.26642 11.9999 8.77304C11.7925 8.60279 11.567 8.4557 11.3267 8.33513C10.8412 8.09151 10.3088 7.96295 9.76767 7.96044V7.96043H9.76428ZM10.5263 12.0008C10.5263 11.2416 10.7231 10.5165 11.0706 9.89538C10.9469 9.79438 10.8136 9.70794 10.6732 9.63749C10.3867 9.49372 10.076 9.41927 9.76263 9.41754C8.59097 9.41856 7.51278 10.5006 7.51278 12.0008C7.51278 13.5017 8.59199 14.584 9.76428 14.584C10.2424 14.584 10.6949 14.4119 11.0697 14.1046C10.7228 13.4838 10.5263 12.7592 10.5263 12.0008ZM14.2349 14.584C13.6756 14.584 13.1378 14.338 12.7281 13.9179V10.0836C13.1378 9.66353 13.6756 9.41754 14.2349 9.41754C15.4072 9.41754 16.4864 10.4999 16.4864 12.0008C16.4864 13.5017 15.4072 14.584 14.2349 14.584Z" />
-                            </svg>
-                            Card</a></li>
-                    <li class="sidebar__nav-item"><a href="#" class="sidebar__nav-link"><svg width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="sidebar__nav-icon">
-                                <path
-                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C10.8119 19.2 9.64218 18.906 8.59528 18.3441C7.54837 17.7823 6.65678 16.9701 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C17.3432 16.9701 16.4516 17.7823 15.4047 18.3441C14.3578 18.906 13.1881 19.2 12 19.2Z" />
-                            </svg>Teams</a>
-                    </li>
-                    <li class="sidebar__nav-item"><a href="#" class="sidebar__nav-link"><svg width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="sidebar__nav-icon">
-                                <g clip-path="url(#clip0_2295_3420)">
-                                    <path
-                                        d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2295_3420">
-                                        <rect width="24" height="24" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>Transactions</a></li>
-                    <li class="sidebar__nav-item  dropdown">
-                        <a href="#" class="sidebar__nav-link">
-                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="sidebar__nav-icon">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M11.9995 1.87891L14.9496 1.92595C15.5122 1.93489 16.0189 1.94294 16.4452 1.99071C16.911 2.04292 17.373 2.15021 17.8245 2.41087C18.276 2.67152 18.5999 3.01801 18.878 3.39529C19.1325 3.74057 19.3929 4.17539 19.6819 4.65817L21.1977 7.18945L22.6319 9.76774C22.9055 10.2595 23.1519 10.7024 23.3237 11.0954C23.5114 11.5249 23.6495 11.9787 23.6495 12.5C23.6495 13.0213 23.5114 13.4751 23.3237 13.9046C23.1519 14.2976 22.9055 14.7405 22.6319 15.2323L21.1977 17.8106L19.6819 20.3419C19.3928 20.8246 19.1325 21.2595 18.878 21.6047C18.5999 21.982 18.276 22.3285 17.8245 22.5891C17.373 22.8498 16.911 22.9571 16.4452 23.0093C16.0189 23.0571 15.5122 23.0651 14.9496 23.0741L11.9995 23.1211L9.04947 23.0741C8.48686 23.0651 7.98014 23.0571 7.55387 23.0093C7.08808 22.9571 6.62605 22.8498 6.17458 22.5891C5.72311 22.3285 5.39917 21.982 5.12107 21.6047C4.86656 21.2594 4.60622 20.8246 4.31717 20.3418L2.8014 17.8106L1.36713 15.2322C1.09355 14.7405 0.847157 14.2976 0.675391 13.9046C0.487706 13.4751 0.349609 13.0213 0.349609 12.5C0.349609 11.9787 0.487706 11.5249 0.675391 11.0954C0.847158 10.7024 1.09356 10.2595 1.36714 9.76777L2.8014 7.18946L4.29065 4.70245C4.29952 4.68765 4.30835 4.6729 4.31716 4.65819C4.60621 4.1754 4.86655 3.74057 5.12107 3.39529C5.39917 3.01801 5.72311 2.67152 6.17458 2.41087C6.62605 2.15021 7.08808 2.04292 7.55386 1.99071C7.98015 1.94294 8.48689 1.93489 9.04952 1.92595L11.9995 1.87891ZM11.9995 4.37713L9.14094 4.42272C8.51054 4.43278 8.125 4.44025 7.83207 4.47308C7.56566 4.50294 7.47353 4.54524 7.42353 4.57412C7.37352 4.60299 7.29082 4.66161 7.13176 4.87741C6.95686 5.11467 6.75762 5.44483 6.43371 5.98574L4.96493 8.43857L3.57511 10.937C3.26862 11.488 3.08232 11.8256 2.96428 12.0957C2.85694 12.3413 2.84751 12.4423 2.84751 12.5C2.84751 12.5577 2.85694 12.6587 2.96428 12.9043C3.08232 13.1744 3.26862 13.5121 3.57511 14.063L4.96493 16.5614L6.43371 19.0143C6.75762 19.5552 6.95686 19.8853 7.13176 20.1226C7.29082 20.3384 7.37352 20.397 7.42353 20.4259C7.47353 20.4548 7.56566 20.4971 7.83207 20.5269C8.125 20.5598 8.51054 20.5672 9.14094 20.5773L11.9995 20.6229L14.8581 20.5773C15.4885 20.5672 15.8741 20.5598 16.167 20.5269C16.4334 20.4971 16.5256 20.4548 16.5756 20.4259C16.6256 20.397 16.7083 20.3384 16.8673 20.1226C17.0422 19.8853 17.2415 19.5552 17.5654 19.0143L19.0342 16.5614L20.424 14.063C20.7305 13.5121 20.9168 13.1744 21.0348 12.9043C21.1422 12.6587 21.1516 12.5577 21.1516 12.5C21.1516 12.4423 21.1422 12.3413 21.0348 12.0957C20.9168 11.8256 20.7305 11.488 20.424 10.937L19.0341 8.43854L17.5654 5.98574C17.2415 5.44483 17.0422 5.11467 16.8673 4.8774C16.7083 4.66161 16.6256 4.60299 16.5756 4.57412C16.5256 4.54524 16.4334 4.50293 16.167 4.47308C15.8741 4.44025 15.4885 4.43278 14.8581 4.42272L11.9995 4.37713ZM11.999 10.5319C10.9121 10.5319 10.031 11.413 10.031 12.4999C10.031 13.5868 10.9121 14.4679 11.999 14.4679C13.0859 14.4679 13.967 13.5868 13.967 12.4999C13.967 11.413 13.0859 10.5319 11.999 10.5319ZM7.53314 12.4999C7.53314 10.0335 9.53258 8.03404 11.999 8.03404C14.4655 8.03404 16.4649 10.0335 16.4649 12.4999C16.4649 14.9664 14.4655 16.9658 11.999 16.9658C9.53258 16.9658 7.53314 14.9664 7.53314 12.4999Z" />
-                            </svg>
-                            Setting
-                        </a>
-                        <nav class="dropdown-nav">
-                            <ul class="dropdown-list">
-                                <li class="dropdown-item  profile-active"><a href="#" class="dropdown-link">Account</a>
-                                </li>
-                                <li class="dropdown-item"><a href="#" class="dropdown-link">Bank</a></li>
-                                <li class="dropdown-item"><a href="#" class="dropdown-link">Referral</a> </li>
-                                <li class="dropdown-item"><a href="#" class="dropdown-link">Support</a></li>
-                                <li class="dropdown-item"><a href="#" class="dropdown-link">Log Out</a></li>
-                            </ul>
-                        </nav>
-                    </li>
+      <aside class="sidebar">
+        <a href="index.html">
+          <img
+            src="./images/logo side menu.png"
+            alt="logo-image"
+            class="logo-image"
+          />
+        </a>
+        <nav class="sidebar__nav">
+            <input type="checkbox" id="burger" class="hidden">
+            <label for="burger" class="burger">
+                <span></span>
+            </label>
+          <ul class="sidebar__nav-list">
+            <li class="sidebar__nav-item">
+              <a href="#" class="sidebar__nav-link"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="sidebar__nav-icon"
+                >
+                  <path
+                    d="M3 13.0002H11V3.00024H3V13.0002ZM3 21.0002H11V15.0002H3V21.0002ZM13 21.0002H21V11.0002H13V21.0002ZM13 3.00024V9.00024H21V3.00024H13Z"
+                  /></svg
+                >Overview</a
+              >
+            </li>
+            <li class="sidebar__nav-item">
+              <a href="#" class="sidebar__nav-link"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="sidebar__nav-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M23.1584 18.6017C23.1358 20.2391 21.8015 21.5595 20.1587 21.5595H3.83891C2.20768 21.5595 0.880538 20.2576 0.839868 18.6361C0.839852 18.6321 0.839844 18.628 0.839844 18.624V5.37684C0.839844 5.37154 0.839857 5.36624 0.839884 5.36094C0.879933 3.77804 2.14605 2.49982 3.72408 2.44043H20.2736C21.8632 2.50026 23.1363 3.79695 23.1584 5.396V18.6017ZM2.29696 5.37684C2.29696 4.52037 2.94314 3.89754 3.65455 3.89754H20.3437C21.0551 3.89754 21.7013 4.52037 21.7013 5.37684V18.624C21.7013 19.4805 21.0551 20.1033 20.3437 20.1033H3.65455C2.94314 20.1033 2.29696 19.4805 2.29696 18.624V5.37684ZM9.76428 7.96043C7.64672 7.96043 6.05566 9.84325 6.05566 12.0008C6.05566 14.1583 7.64672 16.0411 9.76428 16.0411C10.6122 16.0411 11.3838 15.7325 11.9982 15.2271C12.6112 15.7346 13.38 16.0411 14.2349 16.0411C16.3525 16.0411 17.9435 14.1583 17.9435 12.0008C17.9435 9.84325 16.3525 7.96043 14.2349 7.96043C13.3808 7.96043 12.6126 8.26642 11.9999 8.77304C11.7925 8.60279 11.567 8.4557 11.3267 8.33513C10.8412 8.09151 10.3088 7.96295 9.76767 7.96044V7.96043H9.76428ZM10.5263 12.0008C10.5263 11.2416 10.7231 10.5165 11.0706 9.89538C10.9469 9.79438 10.8136 9.70794 10.6732 9.63749C10.3867 9.49372 10.076 9.41927 9.76263 9.41754C8.59097 9.41856 7.51278 10.5006 7.51278 12.0008C7.51278 13.5017 8.59199 14.584 9.76428 14.584C10.2424 14.584 10.6949 14.4119 11.0697 14.1046C10.7228 13.4838 10.5263 12.7592 10.5263 12.0008ZM14.2349 14.584C13.6756 14.584 13.1378 14.338 12.7281 13.9179V10.0836C13.1378 9.66353 13.6756 9.41754 14.2349 9.41754C15.4072 9.41754 16.4864 10.4999 16.4864 12.0008C16.4864 13.5017 15.4072 14.584 14.2349 14.584Z"
+                  />
+                </svg>
+                Card</a
+              >
+            </li>
+            <li class="sidebar__nav-item">
+              <a href="#" class="sidebar__nav-link"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="sidebar__nav-icon"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C10.8119 19.2 9.64218 18.906 8.59528 18.3441C7.54837 17.7823 6.65678 16.9701 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C17.3432 16.9701 16.4516 17.7823 15.4047 18.3441C14.3578 18.906 13.1881 19.2 12 19.2Z"
+                  /></svg
+                >Teams</a
+              >
+            </li>
+            <li class="sidebar__nav-item">
+              <a href="#" class="sidebar__nav-link"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="sidebar__nav-icon"
+                >
+                  <g clip-path="url(#clip0_2295_3420)">
+                    <path
+                      d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2295_3420">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs></svg
+                >Transactions</a
+              >
+            </li>
+            <li class="sidebar__nav-item dropdown">
+              <a href="#" class="sidebar__nav-link">
+                <svg
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="sidebar__nav-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.9995 1.87891L14.9496 1.92595C15.5122 1.93489 16.0189 1.94294 16.4452 1.99071C16.911 2.04292 17.373 2.15021 17.8245 2.41087C18.276 2.67152 18.5999 3.01801 18.878 3.39529C19.1325 3.74057 19.3929 4.17539 19.6819 4.65817L21.1977 7.18945L22.6319 9.76774C22.9055 10.2595 23.1519 10.7024 23.3237 11.0954C23.5114 11.5249 23.6495 11.9787 23.6495 12.5C23.6495 13.0213 23.5114 13.4751 23.3237 13.9046C23.1519 14.2976 22.9055 14.7405 22.6319 15.2323L21.1977 17.8106L19.6819 20.3419C19.3928 20.8246 19.1325 21.2595 18.878 21.6047C18.5999 21.982 18.276 22.3285 17.8245 22.5891C17.373 22.8498 16.911 22.9571 16.4452 23.0093C16.0189 23.0571 15.5122 23.0651 14.9496 23.0741L11.9995 23.1211L9.04947 23.0741C8.48686 23.0651 7.98014 23.0571 7.55387 23.0093C7.08808 22.9571 6.62605 22.8498 6.17458 22.5891C5.72311 22.3285 5.39917 21.982 5.12107 21.6047C4.86656 21.2594 4.60622 20.8246 4.31717 20.3418L2.8014 17.8106L1.36713 15.2322C1.09355 14.7405 0.847157 14.2976 0.675391 13.9046C0.487706 13.4751 0.349609 13.0213 0.349609 12.5C0.349609 11.9787 0.487706 11.5249 0.675391 11.0954C0.847158 10.7024 1.09356 10.2595 1.36714 9.76777L2.8014 7.18946L4.29065 4.70245C4.29952 4.68765 4.30835 4.6729 4.31716 4.65819C4.60621 4.1754 4.86655 3.74057 5.12107 3.39529C5.39917 3.01801 5.72311 2.67152 6.17458 2.41087C6.62605 2.15021 7.08808 2.04292 7.55386 1.99071C7.98015 1.94294 8.48689 1.93489 9.04952 1.92595L11.9995 1.87891ZM11.9995 4.37713L9.14094 4.42272C8.51054 4.43278 8.125 4.44025 7.83207 4.47308C7.56566 4.50294 7.47353 4.54524 7.42353 4.57412C7.37352 4.60299 7.29082 4.66161 7.13176 4.87741C6.95686 5.11467 6.75762 5.44483 6.43371 5.98574L4.96493 8.43857L3.57511 10.937C3.26862 11.488 3.08232 11.8256 2.96428 12.0957C2.85694 12.3413 2.84751 12.4423 2.84751 12.5C2.84751 12.5577 2.85694 12.6587 2.96428 12.9043C3.08232 13.1744 3.26862 13.5121 3.57511 14.063L4.96493 16.5614L6.43371 19.0143C6.75762 19.5552 6.95686 19.8853 7.13176 20.1226C7.29082 20.3384 7.37352 20.397 7.42353 20.4259C7.47353 20.4548 7.56566 20.4971 7.83207 20.5269C8.125 20.5598 8.51054 20.5672 9.14094 20.5773L11.9995 20.6229L14.8581 20.5773C15.4885 20.5672 15.8741 20.5598 16.167 20.5269C16.4334 20.4971 16.5256 20.4548 16.5756 20.4259C16.6256 20.397 16.7083 20.3384 16.8673 20.1226C17.0422 19.8853 17.2415 19.5552 17.5654 19.0143L19.0342 16.5614L20.424 14.063C20.7305 13.5121 20.9168 13.1744 21.0348 12.9043C21.1422 12.6587 21.1516 12.5577 21.1516 12.5C21.1516 12.4423 21.1422 12.3413 21.0348 12.0957C20.9168 11.8256 20.7305 11.488 20.424 10.937L19.0341 8.43854L17.5654 5.98574C17.2415 5.44483 17.0422 5.11467 16.8673 4.8774C16.7083 4.66161 16.6256 4.60299 16.5756 4.57412C16.5256 4.54524 16.4334 4.50293 16.167 4.47308C15.8741 4.44025 15.4885 4.43278 14.8581 4.42272L11.9995 4.37713ZM11.999 10.5319C10.9121 10.5319 10.031 11.413 10.031 12.4999C10.031 13.5868 10.9121 14.4679 11.999 14.4679C13.0859 14.4679 13.967 13.5868 13.967 12.4999C13.967 11.413 13.0859 10.5319 11.999 10.5319ZM7.53314 12.4999C7.53314 10.0335 9.53258 8.03404 11.999 8.03404C14.4655 8.03404 16.4649 10.0335 16.4649 12.4999C16.4649 14.9664 14.4655 16.9658 11.999 16.9658C9.53258 16.9658 7.53314 14.9664 7.53314 12.4999Z"
+                  />
+                </svg>
+                Setting
+              </a>
+              <nav class="dropdown-nav">
+                <ul class="dropdown-list">
+                  <li class="dropdown-item profile-active">
+                    <a href="#" class="dropdown-link">Account</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Bank</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Referral</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Support</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="dropdown-link">Log Out</a>
+                  </li>
                 </ul>
+              </nav>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="wrapper-profile">
+        <section class="profile">
+          <div class="profile-card">
+            <h2 class="title">My Account</h2>
+            <div class="profile-card__photo">
+              <p class="profile-card__photo-text">TT</p>
+              <button class="profile-card__photo-button"></button>
+            </div>
+            <form action="#" class="profile-card__form">
+              <div class="profile-card__form-inputs">
+                <label class="form-field">
+                  <span class="form-field__text">Name</span>
+                  <input
+                    type="text"
+                    placeholder="Test Tested"
+                    class="form-field__input"
+                  />
+                </label>
+                <label class="form-field">
+                  <span class="form-field__text">Creator type</span>
+                  <input
+                    type="text"
+                    placeholder="Musician"
+                    class="form-field__input"
+                  />
+                </label>
+                <label class="form-field">
+                  <span class="form-field__text">Email</span>
+                  <input
+                    type="email"
+                    placeholder="testtest@gmail.com"
+                    class="form-field__input"
+                  />
+                </label>
+                <label class="form-field">
+                  <span class="form-field__text">Gender</span>
+                  <select
+                    name="Gender"
+                    class="form-field__input form-field__select"
+                  >
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                  </select>
+                </label>
+                <label class="form-field">
+                  <span class="form-field__text">Phone Number</span>
+                  <input
+                    type="tel"
+                    placeholder="e.g. +1 234 567 890"
+                    class="form-field__input"
+                  />
+                </label>
+                <label class="form-field">
+                  <span class="form-field__text">Password</span>
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    class="form-field__input"
+                  />
+                </label>
+              </div>
+              <div class="profile-card__form-buttons">
+                <button class="form-button form-button--bg-green">
+                  Change Passsword
+                </button>
+                <button class="form-button form-button--bg-gray">
+                  Remove Account
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="footer__content">
+            <div class="footer__icons">
+              <a href="#"
+                ><img
+                  src="images/facebook.svg"
+                  alt="facebook-icon"
+                  class="footer__icon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/instagram.svg"
+                  alt="instagram-icon"
+                  class="footer__icon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/twitter.svg"
+                  alt="twitter-icon"
+                  class="footer__icon"
+              /></a>
+              <a href="#"
+                ><img src="images/in.svg" alt="in-icon" class="footer__icon"
+              /></a>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Terms of Service</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Privacy Policy</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Contact Us</a>
+                </li>
+              </ul>
             </nav>
-        </aside>
-        <div class="wrapper-profile">
-            <section class="profile">
-                <div class="profile-card">
-                    <h2 class="title">My Account</h2>
-                    <div class="profile-card__photo">
-                        <p class="profile-card__photo-text">TT</p>
-                        <button class="profile-card__photo-button"></button>
-                    </div>
-                    <form action="#" class="profile-card__form">
-                        <div class="profile-card__form-inputs">
-                            <label class="form-field">
-                                <span class="form-field__text">Name</span>
-                                <input type="text" placeholder="Test Tested" class="form-field__input">
-                            </label>
-                            <label class="form-field">
-                                <span class="form-field__text">Creator type</span>
-                                <input type="text" placeholder="Musician" class="form-field__input">
-                            </label>
-                            <label class="form-field">
-                                <span class="form-field__text">Email</span>
-                                <input type="email" placeholder="testtest@gmail.com" class="form-field__input">
-                            </label>
-                            <label class="form-field">
-                                <span class="form-field__text">Gender</span>
-                                <select name="Gender" class="form-field__input form-field__select">
-                                    <option value="">Male</option>
-                                    <option value="">Female</option>
-                                </select>
-                            </label>
-                            <label class="form-field">
-                                <span class="form-field__text">Phone Number</span>
-                                <input type="tel" placeholder="e.g. +1 234 567 890" class="form-field__input">
-                            </label>
-                            <label class="form-field">
-                                <span class="form-field__text">Password</span>
-                                <input type="password" placeholder="Password" class="form-field__input">
-                            </label>
-                        </div>
-                        <div class="profile-card__form-buttons">
-                            <button class="form-button form-button--bg-green">Change Passsword</button>
-                            <button class="form-button form-button--bg-gray">Remove Account</button>
-                        </div>
-                    </form>
-                </div>
-            </section>
-            <footer class="footer">
-                <div class="footer__content">
-                    <div class="footer__icons">
-                        <img src="images/facebook.svg" alt="facebook-icon">
-                        <img src="images/instagram.svg" alt="instagram-icon">
-                        <img src="images/twitter.svg" alt="twitter-icon">
-                        <img src="images/in.svg" alt="in-icon">
-                    </div>
-                    <nav class="footer__nav">
-                        <ul class="footer__nav-list">
-                            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Terms of Service</a></li>
-                            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Privacy Policy</a></li>
-                            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact Us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </footer>
-        </div>
+          </div>
+        </footer>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
